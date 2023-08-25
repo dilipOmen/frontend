@@ -1,0 +1,134 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#head {
+  background: rgb(12, 14, 13);
+  height: 60px;
+}
+
+.logo {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  background: rgb(219, 234, 4);
+  border: solid -1px green;
+  padding: 4px 20px;
+
+}
+
+.logo h1 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Dancing Script';
+}
+
+.list_items ul {
+  position: absolute;
+  right: 30px;
+}
+
+.list_items ul li {
+  display: inline-block;
+  padding: 18.5px 18px;
+
+
+}
+
+.list_items ul li:hover {
+  background: orange;
+  border-radius: 5px;
+}
+
+.list_items ul li a {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.banner_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("library.jpg");
+  height: 100vh;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.baner_items {
+  position: absolute;
+  right: 40px;
+  margin-top: 360px;
+}
+
+.baner_items h1 {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.baner_items p {
+  margin-top: 18px;
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+}
+
+.btn {
+  background: rgb(219, 36, 207);
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 6px;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.btn:hover {
+  background: #12cbc4;
+  color: #fff;
+  background-position: right;
+}
+
+.btn1 {
+  background-image: linear-gradient(to left, #0deffb, #009432);
+  margin-top: 20px;
+  padding: 12px 10px;
+  color: black;
+  margin-left: 1px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  transition: 0.6s;
+}
+
+.btn1:hover {
+  background: #fe06a8;
+  color: #fff;
+  background-position: right;
+}
+
+.icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.icons i {
+  background: pink;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.icons i:hover {
+  color: pink;
+}
